@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_farmerTale"
+            android:layout_width="wrap_content"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="လယ္သမားပံုျပင္မ်ား" />
+        <item
+            android:id="@+id/nav_animalTale"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="တိရိစာၦန္ပံုျပင္မ်ား" />
+        <item
+            android:id="@+id/nav_psychoTale"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="ေတြးစရာပံုျပင္မ်ား" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

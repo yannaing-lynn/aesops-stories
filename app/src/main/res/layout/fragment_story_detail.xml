@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBackground"
+    tools:context=".fragments.StoryDetail">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="35dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvStoryDetailTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Aesop' Fable"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imgViewStoryDetail"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:src="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/tvStoryDetailFirstBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Welcome from our Stories board ;vnas;difjewvlnsd;vlasdfja;slvnaposiwna;vsajpofainsdv;aldsifjpwoefna;vklna;odifand;vladijapdovna;d"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvStoryDetailSecondBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="a;dflkjdf;adlfja;dlfkja;dlfja;dflkajsd;flaksjdf;alskdfj;aslfkjda;ldnv;lasnv;alskfnasdv;lasdkfjapoeiwj;lekfja;sldfajdspfoiwejf;laskdfjas;dlvnasld;vna;ldfkjas;dvnasldf;iuwpoefj;alsdifypwoe;ilfj;salfiuaspo;dlfja;sdlfiuaspodfiajsd;flasdfjapos;nv;lasdkfuapoweifnsadl;vknasl;ifue;olvna;sdfie;lna;sldfajs"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvStoryDetailThirdBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="a;dflkjdf;adlfja;dlfkja;dlfja;dflkajsd;flaksjdf;alskdfj;aslfkjda;ldnv;lasnv;alskfnasdv;lasdkfjapoeiwj;lekfja;sldfajdspfoiwejf;laskdfjas;dlvnasld;vna;ldfkjas;dvnasldf;iuwpoefj;alsdifypwoe;ilfj;salfiuaspo;dlfja;sdlfiuaspodfiajsd;flasdfjapos;nv;lasdkfuapoweifnsadl;vknasl;ifue;olvna;sdfie;lna;sldfajs"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
